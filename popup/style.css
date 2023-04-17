@@ -1,0 +1,21 @@
+body {
+  background-color: burlywood;
+}
+
+div {
+  display: flex;
+  width: 600px;
+  flex-wrap: wrap;
+}
+
+div > img {
+  width: 100px;
+  height: 100px;
+  margin: 10px 10px;
+  border-radius: 50%;
+  transition: 0.3s ease-in-out;
+}
+
+div > img:hover {
+  scale: 1.1;
+}
